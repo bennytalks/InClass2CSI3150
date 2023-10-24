@@ -1,3 +1,31 @@
 @charset "utf-8";
 /* CSS Document */
+img {
+	visibility: visible;
+}
+.orange-container {
+  border: 2px solid orange;
+  padding: 2px;
+  margin: 2px;
+  text-align: center;
+}
+.flex-container {
+ 
+  padding: 2px;
+  text-align: center;
+	padding-left:40px;
+	padding-right:40px;
+	display: flex;
+	justify-content: space-evenly;
+}
+#wholeimages {
+	border: 2px solid orange;
+	display:flex;
+	min-height: 350px;
+	
+}
 
+button {
+	padding-left:15px;
+	padding-right:15px;
+}
